@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  Server.cpp
+D:\destop\CS2106_U202115512_\Socket\源码\Socket\Server.cpp(170,15): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  正在生成代码...
+  Socket.vcxproj -> D:\destop\CS2106_U202115512_\Socket\源码\Socket\Debug\Socket.exe

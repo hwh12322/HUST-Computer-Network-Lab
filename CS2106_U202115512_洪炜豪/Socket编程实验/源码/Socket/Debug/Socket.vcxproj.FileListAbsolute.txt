@@ -1,0 +1,4 @@
+D:\workfile\ComputerTelecommunicationsAndNetwork\lab\Socket\Socket\Debug\Socket.exe
+D:\workfile\ComputerTelecommunicationsAndNetwork\lab\Socket\Debug\Socket.exe
+D:\destop\HUST_Computer_Network-master\lab1\Socket\Debug\Socket.exe
+D:\destop\CS2106_U202115512_\Socket\源码\Socket\Debug\Socket.exe

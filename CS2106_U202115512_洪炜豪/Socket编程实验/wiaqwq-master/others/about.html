@@ -1,0 +1,103 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<link rel="stylesheet" href="../css/about.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>wiaqwq</title>
+</head>
+
+<body  id ='b'>
+<div class='zo' >
+<div class="tu" id='img'><img src="../img/jianto.png"></div>
+  <div class="about" onclick="cl2()">
+  <center>
+    <h1>游戏系统</h1></center>
+  </div>
+  <div class="about">
+    <p ><strong>音符</strong><strong> </strong><br>
+      TAP（单点）：直接打击。 <br>
+      ExTAP（强化单点）：操作与TAP相同。所有JUSTICE无条件升为JUSTICE CRITICAL。打击时会出现特殊背景特效和音效。 <br>
+      HOLD（长押）：按住后直到尾部接近判定线。因为没有尾判，所以可以稍晚抬手。 <br>
+      SLIDE（滑条）：同长押，但是需要按照音符的移动方向滑动，同样没有尾判。 <br>
+      AIR ACTION：按住后抬起手，紫色音符接触判定线时向上或向下挥手可以通过纵向转圈来击打紫色音符纵连。 <br>
+      FLICK（滑键）：音符类似于TAP，但需在左/右方向滑动，只会在MASTER以及WORLD'S END中出现。 <br>
+      AIR&#8593;&#8595;：打击后抬手（上抬）或向下挥手（下挥）。 <br>
+      实际游玩时，无论是什么方向或种类的AIR和AIR ACTION的紫音符，只要能使框体能识别出向上或下挥动的动作就可以判定，比如对于斜向右上的AIR也可以向下挥手来击打，只是因为顺应动作紫AIR判定中心会比绿AIR更加靠前。 <br>
+      DAMAGE（地雷）：带有雷电的音符，与TAP刚好相反，打击时会判定为MISS，不打击则会判定为JUSTICE CRITICAL并计入COMBO数，只会在WORLD'S END中出现。高仿LR2 <br>
+      新版本(NEW!!)新增音符 <br>
+      AIR SLIDE（空中滑条）：音符类似于AIR ACTION，按下后抬起手，跟随着空中的AIR HOLD移动轨迹便可。 <br>
+      AIR CRUSH（空中粉碎）：音符类似于AIR&#8593;&#8595;，做出向上或下挥动的动作便可，。 <br>
+      新增两种豪华装饰音符 <br>
+      <strong>判定和结算</strong><strong> </strong><br>
+      <strong>判定</strong><strong> </strong><br>
+      游戏单局满分为1010000。而且，如下判定有各自不同的赋分情况： <br>
+      JUSTICE CRITICAL：精准击中，获得101%分。算入ALL JUSTICE条件。 <br>
+      JUSTICE：较小偏差击中，获得100%分。算入ALL JUSTICE条件。 <br>
+      ATTACK：较大偏差击中，获得50%分。在游玩后取消ALL JUSTICE。 <br>
+      MISS：未击中，不给分，断Combo。 <br>
+      ALL JUSTICE：所有音符均打出JUSTICE（包括非Critical）判定。 <br>
+      FULL COMBO：不打出MISS判定。 <br>
+    另外在玩家群体中有ALL JUSTICE CRITICAL的说法，即全打出JUSTICE CRITICAL判定，此时分数达到理论值1010000，游戏内标识仍为ALL JUSTICE。 </p>
+    <p ><strong>评级</strong><strong> </strong><br>
+      新版本(NEW!!) : </p>
+    <p >SSS+：1009000-1010000 <br>
+      SSS：1007500-1008999 <br>
+      SS+：1005000-1007499 <br>
+      SS：1000000-1004999 <br>
+      S+：990000-999999 <br>
+      S：975000-989999 <br>
+      AAA：950000-974000 <br>
+      AA：925000-949999 <br>
+      A：900000-924999 <br>
+      BBB：800000-899999 <br>
+      BB：700000-799999 <br>
+      B：600000-699999 <br>
+      C：500000-599999 <br>
+      D：499999以下 </p>
+    <p >&nbsp;</p>
+    <p >旧版本/海外版 : </p>
+    <p >SSS：1007500-1010000 <br>
+      SS：1000000-1007499 <br>
+      S：975000-999999 <br>
+      AAA：950000-974000 <br>
+      AA：925000-949999 <br>
+      A：900000-924999 <br>
+      BBB：800000-899999 <br>
+      BB：700000-799999 <br>
+      B：600000-699999 <br>
+      C：500000-599999 <br>
+      D：499999以下 </p>
+    <p >由于旧版本游戏内部的rating算法中，1005000是一个特殊的分数，因此部分玩家称1005000-1007499为SS+ </p>
+    <p ><strong>Rating系统</strong><strong> </strong><br>
+      与maimai和音击一样，CHUNITHM也拥有量化玩家游玩水平的Rating系统。 </p>
+    <p >该系统会根据玩家的BEST 30（即成绩最好的30张谱面）和RECENT 10（即最近游玩的10张谱面）来进行评价。 不同的Rating也拥有不同的颜色，具体如下: </p>
+    <p >旧版本/海外版 : 0.00（绿色）&#8594;4.00（橙色）&#8594;7.00（红色）&#8594;10.00（紫色）&#8594;12.00（铜）&#8594;13.00（银）&#8594;14.00（金）&#8594;14.50（铂）&#8594;15.00（彩虹色） </p>
+    <p >新版本(NEW!!) : 0.00（绿色）&#8594;4.00（橙色）&#8594;7.00（红色）&#8594;10.00（紫色）&#8594;12.00（铜）&#8594;13.25（银）&#8594;14.50（金）&#8594;15.25（铂）&#8594;16.00（彩虹色） </p>
+    <p >截至目前，CHUNITHM NEW!!所能达到的最高Rating理论值为 17.29 (17.2975) 。 </p>
+    <p >&nbsp;</p>
+  </div>
+  <div class='tou'>
+    <div class='tou-tou' onClick="cl4()"> <img src="../img/xiao.png"/></a> </div>
+    <div class='tou-li'> <a href="../index.html">
+      <div class='box-menu' id='bo'>首页<font size="2" face="Verdana" color="#555555"></font> </div>
+      </a> <a href="liuyan.html">
+      <div class='box-menu' >其他模式</div>
+      </a> <a href="about.html">
+      <div class='box-menu' style="background-color:#C39AAD;">游戏系统</div>
+      </a> <a href="liuyan1.html">
+      <div class='box-menu'>游戏视频</div>
+        </a> <a href="liuyan2.html">
+      <div class='box-menu'>个人介绍</div>
+       </a> <a href="https://cyanqwq.gitee.io/yc/213">
+      <div class='box-menu'>返回寝室</div>
+      </a> </div>
+  </div>
+</div>
+<script src="../js/chickback.js"></script> 
+<script src="../js/movie.js"></script> 
+<script type="text/javascript" color="208,55,66" opacity="0.5"count="99"src="../js/xt.js"></script>
+</body>
+</html>

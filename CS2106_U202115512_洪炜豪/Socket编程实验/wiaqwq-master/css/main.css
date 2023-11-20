@@ -1,0 +1,86 @@
+/* CSS Document */
+
+h1{color:#666;}
+p{color:#666;font:16px "Microsoft YaHei", Arial, Helvetica, sans-serif;line-height: normal;line-height: 3.5;}
+p1{color:#666;font:16px "Microsoft YaHei", Arial, Helvetica, sans-serif;line-height: normal;line-height: 2;}
+*{margin:0; padding:0;}
+body{
+	font-size: 20px;
+	background: url(../img/1.jpg);
+	background-attachment: fixed;
+
+}
+
+li{ list-style:none;}
+img{border:none; vertical-align:top;}
+a{text-decoration:none; color:inherit;}
+.clear:after{content:""; display:block; clear:both;}
+.zo{
+	 overflow:hidden;
+	  
+}
+.tou{
+   float:left;
+   overflow: hidden;
+   height:1000px;
+   background:#D0D0D0;
+   width:100px;
+   position:fixed;
+   background: linear-gradient(#d0d0d0,#c36371,#f9f9f9,#d0d0d0);
+   background-size:1400% 300%;
+   animation:mymove 20s ease infinite;
+  
+   
+}
+.tou-li{ 
+   padding:15px;
+   height:800px;
+   width:70px;
+   margin:auto;
+   margin-top: 35px;
+   
+}
+.box-menu{
+	width:auto;
+	margin-top:15px;
+		
+}
+.tou-tou{
+	padding:50px 20px 20px 15px;
+	width:auto;
+}
+.box-menu:hover {
+	background-color:#C39AAD;
+}
+.about{
+	float: right;
+	height: 540px;
+	width: 650px;
+	margin-top: 90px;
+	margin-right: 650px;
+	border: 3px solid #A40;
+	padding: 5px;
+	background-color: rgba(255,255,255,0.5)
+	  
+}
+.about2{
+	  float:right;
+	  height:400px;
+      width:600px; 
+	  margin-top:90px;
+	  margin-right:650px;
+	  padding:5px;
+	  background-color:rgba(255,255,255,0.15)最后一个参数设置透明度，前面三个是RGB颜色值 
+	  
+}
+.tu{float:left; position:fixed;margin-left:110px;margin-top:20px;}
+a{text-decoration:none}
+@keyframes mymove
+	{
+		 0% {
+			background-position: 0% 0%; }
+			50% {
+			background-position: 50% 100%; }
+			100% {
+			 background-position: 100% 0%; }
+	}

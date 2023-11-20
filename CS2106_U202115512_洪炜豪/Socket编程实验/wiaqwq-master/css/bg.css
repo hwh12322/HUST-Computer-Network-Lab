@@ -1,0 +1,25 @@
+/* CSS Document */
+
+#container  {
+  width : 100%; 
+  height : 100%; 
+  position : absolute; 
+  top : 0px; 
+  left : 0px;
+  margin : 0px;
+  padding : 0px;
+}
+
+body {
+  overflow : hidden;
+}
+
+#tutorial {
+  pointer-events: none;
+  color : #FAE1B0;
+  font : 30px Arial;
+  position : absolute; 
+  top : 50%; 
+  left : 30%;
+
+}
